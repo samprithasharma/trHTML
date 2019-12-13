@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<head>
+<title>form
+
+</title>
+    <style type="text/css">
+        td{color: crimson;}
+        </style>
+        </head>
+        <body bgcolor="pink">
+            <table border="0" cellpadding="8" width="600" align="left" bgcolor="#f0ffff">
+                <center>
+                    <caption align="top">
+                        <h2>registration form</h2>
+                    </caption>
+                        <form name="testform">
+                            <font face="georgia" size="4">
+                                <tr>
+                                    <td>first name</td>
+                                    <td><input type="text" name="Fname" size="30" maxlength="30" 
+                                        value="" align="middle"
+                                     style="background-color: #ffffff; border-color:rgb(0, 255, 13)"
+                                      tabindex="1" required autofocus/>
+                                     <span id="demo" style="color:red;"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>last name</td>
+                                    <td><input type="text" name="Fname" size="30" maxlength="30" 
+                                        value="" align="middle"
+                                     style="background-color:white; border-color:rgb(38, 0, 255)"
+                                      tabindex="2" required autofocus/>
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>education Type</td>
+                                    <td><input type="checkbox" name="education"  
+                                        value="graduate" 
+                                      tabindex="3" />graduate
+                                      <input type="checkbox" name="education1"  
+                                      value="post graduate" align="middle"
+                                    tabindex="4" />post graduate
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>gender</td>
+                                    <td><input type="radio" name="gender"  value="male" 
+                                      tabindex="5" />Male
+                                      <input type="radio" name="gender"  
+                                      value="female" align="middle"
+                                    tabindex="6" />female
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>salary</td>
+                                    <td><input type="password" name="salary"  size="30" maxlength="30"
+                                      tabindex="7"/>
+                                    
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Comment</td>
+                                    <td>
+                                        <textarea rows="10" cols="50" wrap="physical" tabindex="8">
+
+                                        </textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>state</td>
+                                    <td><select name="state" tabindex="9">
+                                        <option>AP</option>
+                                        <option>KARNATAKA</option>
+                                        <option>UP</option>
+                                        <option>kp</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td>programming lang</td>
+                                    <td><input list="languages"/>
+                                        <datalist id="languages">
+                                        <option value="cobol"></option>
+                                        <option value="fortb"></option>
+                                        <option value="cjhjk"></option>
+                                        <option value="cp"></option>
+                                    </datalist>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>select color</td>
+                                    <td><input id="background-color" type="color"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>meeting date</td>
+                                    <td><input id"meeting" type="date"/></td>
+                                </tr>
+                                <tr>
+                                    <td> meeting date and time</td>
+                                    <td>
+                                        <input id="mdate" type="datetime-local" name="mdate">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>email</td>
+                                    <td>
+                                        <input id="email" type="email"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>web  site</td>
+                                    <td>
+                                        <input type="url" name="website">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>phone</td>
+                                    <td>
+                                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <input type="submit" value="submit" tabindex="10"/>
+                                        <input type="reset" value="reset" tabindex="11"/>
+                                        
+                                    </td>
+                                </tr>
+
+                            </font>
+                        </form>
+                    
+                </center>
+            </table>
+        </body>
+</html>

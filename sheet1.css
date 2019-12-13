@@ -1,0 +1,10 @@
+h2{
+    color:green;
+    font-family: "Arial";
+    font-size: 600%;
+}
+.warning{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+}

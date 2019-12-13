@@ -1,0 +1,15 @@
+
+    .box{
+        width: 300px;
+        height: 150px;
+        border: 15px solid transparent;
+        
+        border-radius: 200%;
+        border-image: url("sam.jfif") 30 30 round;
+
+    }
+    .card{
+        padding: 30px;
+        
+        
+    }

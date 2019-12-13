@@ -1,0 +1,68 @@
+#header{
+    background-color: yellow;
+    color: brown;
+    text-align: center;
+    font-family: 'bernard MT';
+    padding: 5px;
+}
+#navlinks{
+    line-height:30px;
+    background-color:gold;
+    height: 750px;
+    width: 150px;
+    float:left;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: blanchedalmond;
+}
+li a{
+    display: block;
+    color: blueviolet;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: brown;
+    color: chartreuse;
+}
+#section{
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(90, 20, 220);
+    background-image: url("download.jfif");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+#ASIDE{
+    float:right;
+    background-color:rgb(128, 0, 0);
+    width:400px;
+    height: 760px;
+    text-align: justify;
+}
+#fig{
+    text-align: center;
+    display: flex;
+}
+#footer{
+    background-color: blue;
+    color: aliceblue;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
